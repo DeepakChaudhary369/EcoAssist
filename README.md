@@ -465,22 +465,12 @@ Waste disposal recommendations may also vary depending on local regulations.
 
 ---
 
-## 🌐 Live Demo
-
-Try EcoAssist here:
-
-**[https://ecoassist-ai.streamlit.app/](https://ecoassist-ai.streamlit.app/)**
-
----
 
 ## 👨‍💻 Author
 
 **Deepak Chaudhary**
 
 B.Tech Computer Science & Engineering — Data Science
-
-GitHub:
-[https://github.com/DeepakChaudhary369](https://github.com/DeepakChaudhary369)
 
 LinkedIn:
 [https://www.linkedin.com/in/deepakchaudhary369](https://www.linkedin.com/in/deepakchaudhary369)
