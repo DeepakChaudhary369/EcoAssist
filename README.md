@@ -171,7 +171,7 @@ EcoAssist/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
-│   └── bottle.jpg
+│   
 │
 ├── frontend/
 │   ├── index.html
