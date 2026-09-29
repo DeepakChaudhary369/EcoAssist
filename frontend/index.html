@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>EcoAssist | AI Waste & Recycling Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==============================
+         HEADER
+    =============================== -->
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                🌱
+            </div>
+
+            <div>
+                <h1>EcoAssist</h1>
+
+                <p>
+                    AI Waste & Recycling Assistant
+                </p>
+            </div>
+
+        </div>
+
+        <div class="status">
+
+            <span class="status-dot"></span>
+
+            <span>AI Assistant Online</span>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==============================
+         MAIN CHAT AREA
+    =============================== -->
+
+    <main class="chat-container" id="chatContainer">
+
+        <!-- Welcome message -->
+
+        <div class="ai-chat-box">
+
+            <div class="avatar ai-avatar">
+                🤖
+            </div>
+
+            <div class="message-wrapper">
+
+                <div class="sender-name">
+                    EcoAssist
+                </div>
+
+                <div class="ai-chat-area">
+
+                    <h3>
+                        Hello! 👋
+                    </h3>
+
+                    <p>
+                        I'm EcoAssist, your AI assistant for
+                        waste management, recycling, and
+                        environmental awareness.
+                    </p>
+
+                    <p>
+                        You can ask me about recycling,
+                        waste disposal, sustainability, or
+                        upload an image of an item to learn
+                        more about it.
+                    </p>
+
+                    <div class="example-box">
+
+                        <strong>Try asking:</strong>
+
+                        <ul>
+
+                            <li>
+                                ♻️ How can I recycle plastic bottles?
+                            </li>
+
+                            <li>
+                                🌱 What is composting?
+                            </li>
+
+                            <li>
+                                🔋 How should I dispose of batteries?
+                            </li>
+
+                            <li>
+                                📷 Upload an image of waste
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ==============================
+         IMAGE PREVIEW
+    =============================== -->
+
+    <div class="image-preview-container"
+        id="imagePreviewContainer">
+
+        <div class="image-preview">
+
+            <img
+                id="previewImage"
+                src=""
+                alt="Selected image">
+
+            <button
+                id="removeImage"
+                type="button">
+                ×
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==============================
+         INPUT AREA
+    =============================== -->
+
+    <section class="prompt-section">
+
+        <div class="prompt-area">
+
+            <!-- Image upload -->
+
+            <button
+                class="icon-button"
+                id="imageButton"
+                type="button"
+                title="Upload waste image">
+
+                📷
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/jpeg,image/png,image/webp"
+                    hidden>
+
+            </button>
+
+
+            <!-- Text input -->
+
+            <textarea
+                id="prompt"
+                rows="1"
+                placeholder="Ask EcoAssist about waste, recycling or the environment..."
+                autocomplete="off"></textarea>
+
+
+            <!-- Send button -->
+
+            <button
+                class="send-button"
+                id="submit"
+                type="button"
+                title="Send message">
+
+                ➤
+
+            </button>
+
+        </div>
+
+
+        <p class="privacy-note">
+
+            EcoAssist uses AI to provide general environmental
+            guidance. Local recycling rules may vary.
+
+        </p>
+
+    </section>
+
+
+    <!-- ==============================
+         JAVASCRIPT
+    =============================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
