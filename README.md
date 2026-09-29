@@ -11,6 +11,7 @@ The application supports both **text-based questions and image-based waste analy
 
 ![EcoAssist Screenshot](EcoAssist.png)
 
+---
 
 ## 🌱 Project Overview
 
