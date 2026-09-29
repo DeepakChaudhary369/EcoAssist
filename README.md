@@ -1,4 +1,3 @@
-````markdown
 # ♻️ EcoAssist — AI Waste & Recycling Assistant
 
 **EcoAssist** is an AI-powered waste and recycling assistant designed to help users understand waste classification, recycling, disposal practices, and environmental topics.
@@ -18,8 +17,6 @@ The application supports both **text-based questions and image-based waste analy
 ```text
 ![EcoAssist Screenshot](screenshots/ecoassist-dashboard.png)
 ````
-
----
 
 ## 🌱 Project Overview
 
