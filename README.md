@@ -92,7 +92,7 @@ For Streamlit Community Cloud, the API key is stored using Streamlit Secrets.
 
 Sensitive files are excluded through `.gitignore`.
 
-
+---
 
 
 ## 🛠️ Technology Stack
