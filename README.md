@@ -1,7 +1,3 @@
-Absolutely. Since **EcoAssist is now deployed and working**, here is a complete, professional `README.md` you can copy directly into your GitHub repository.
-
-I’ve written it to present EcoAssist as an **AI + environmental digital innovation project**, rather than simply a chatbot.
-
 ````markdown
 # ♻️ EcoAssist — AI Waste & Recycling Assistant
 
