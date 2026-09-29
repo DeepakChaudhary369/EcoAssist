@@ -6,9 +6,6 @@ The application supports both **text-based questions and image-based waste analy
 
 🌐 **Live Demo:** https://ecoassist-ai.streamlit.app/
 
-📂 **GitHub:** https://github.com/DeepakChaudhary369/EcoAssist
-
----
 
 ## 📸 Application Preview
 
