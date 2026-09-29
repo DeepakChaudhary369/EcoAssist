@@ -92,15 +92,8 @@ For Streamlit Community Cloud, the API key is stored using Streamlit Secrets.
 
 Sensitive files are excluded through `.gitignore`.
 
----
 
-### 📏 Upload Size Control
 
-The application limits image uploads to **5 MB** through Streamlit configuration.
-
-This helps prevent unnecessarily large uploads and keeps the application lightweight.
-
----
 
 ## 🛠️ Technology Stack
 
